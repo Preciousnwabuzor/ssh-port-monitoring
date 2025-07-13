@@ -1,7 +1,6 @@
 📄 README.md for: SSH Port Monitoring and Threat Response
 markdown
-Copy
-Edit
+
 # SSH Port Monitoring and Threat Response 🛡️
 
 This project is a real-time monitoring solution designed to detect brute-force SSH attacks and respond to potential intrusion attempts using system logs and analytics. Built as part of a cybersecurity internship program, it demonstrates log analysis, threat detection, and alerting principles.
@@ -19,7 +18,9 @@ This project is a real-time monitoring solution designed to detect brute-force S
 
 ---
 
-## 🛠️ Technologies Used
+
+
+#---# 🛠️ Technologies Used
 
 - **Python 3**
 - **Linux** (Tested on Kali Linux and Ubuntu)
@@ -31,7 +32,7 @@ This project is a real-time monitoring solution designed to detect brute-force S
 
 ## 📁 Project Structure
 
-```bash
+
 ssh-port-monitoring/
 ├── est.py                  # Main monitoring script
 ├── install.sh              # Setup script (dependencies, permissions)
@@ -39,26 +40,19 @@ ssh-port-monitoring/
 ├── README.md               # This file
 ├── LICENSE                 # License info
 └── logs/                   # Sample log files (optional)
+
 ⚙️ How to Use
 Clone the repo:
 
-bash
-Copy
-Edit
 git clone https://github.com/Preciousnwabuzor/ssh-port-monitoring.git
 cd ssh-port-monitoring
 Run the installer (optional):
 
-bash
-Copy
-Edit
+
 chmod +x install.sh
 ./install.sh
 Start monitoring:
 
-bash
-Copy
-Edit
 python3 est.py
 (Optional) Connect the output to Splunk or other SIEM tools for visualization and automated response.
 
